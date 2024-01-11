@@ -1,0 +1,45 @@
+.menu-main {
+  overflow: scroll;
+  padding: 0em 12em;
+  padding-top: 6em;
+  background-color: #ffffff;
+  justify-content: start;
+}
+
+.menu-title {
+  font-size: 3em;
+  color: #000000;
+}
+
+.menu-sign {
+  margin: -0.5em;
+  font-size: 5em;
+  font-family: "cursive", "Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+.menu-break {
+  background-color: #b64315;
+  border: 2px solid #b64315;
+  width: 65%;
+  height: 5px;
+  margin: 1.75em 0em;
+}
+
+.item-title {
+  font-size: 1.65em;
+  margin: 1em;
+  font-weight: 600;
+}
+
+.item-description {
+  color: #000000;
+  text-align: center;
+}
+
+.mini-menu-break {
+  background-color: #b64315;
+  border: 1px solid #b64315;
+  width: 35%;
+  height: 1px;
+  margin: 0em;
+}

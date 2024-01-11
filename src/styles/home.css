@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: #251b1b;
+  background-image: url("/src/assets/embers.jpeg");
+  background-size: 175%;
+  background-position: right;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+nav,
+footer {
+  height: 7.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  border-bottom: 2px solid #b64315;
+}
+
+footer {
+  border-top: 2px solid #b64315;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+li:hover {
+  color: #b64315;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  height: 85vh;
+  padding-top: 6em;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* home page */
+
+.home-h1 {
+  font-size: 3em;
+}
+
+.sign {
+  margin: -0.5em;
+  z-index: -1;
+  font-size: 5em;
+  font-family: "cursive", "Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+.home-break {
+  background-color: #b64315;
+  border: 2px solid #b64315;
+  width: 40%;
+  height: 3px;
+  margin: 1.75em 0em;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  background-color: #b64315;
+  height: 32px;
+  font-size: 14px;
+  padding: 8px 16px;
+  box-sizing: content-box;
+  cursor: pointer;
+  margin: 2em 0em;
+}
+
+button:hover {
+  color: #251b1b;
+}
+
+.rust {
+  color: #b64315;
+}

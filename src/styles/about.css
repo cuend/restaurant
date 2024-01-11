@@ -1,0 +1,30 @@
+.about-main {
+  justify-content: start;
+  overflow: scroll;
+  padding: 0em 12em;
+  padding-top: 6em;
+  background-color: #ffffff;
+}
+
+.about-title {
+  font-size: 3em;
+  color: #000000;
+}
+
+.about-sign {
+  margin: -0.5em;
+  font-size: 5em;
+  font-family: "cursive", "Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+.about-break {
+  background-color: #b64315;
+  border: 2px solid #b64315;
+  width: 65%;
+  height: 5px;
+  margin: 1.75em 0em;
+}
+
+.text-body {
+  color: black;
+}
